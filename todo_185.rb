@@ -8,8 +8,7 @@ require_relative "database_persistence"
 configure do
   enable :sessions
   set :session_secret, "d285fa8e8cd859f8d9d1cb628132924baf05cc62f558b80e2b525b95608dca3c"
-  set :erb, :escape_html => true
-  
+  set :erb, :escape_html => true  
 end
 
 configure(:development) do
